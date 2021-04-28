@@ -8,10 +8,10 @@
 
 /* commons */
 .btn{
-    background-color: white;
     padding: 10px 10px;
     border-radius: 25px;
     border: none;
+    text-decoration: none;
 }
 /* fine commons */
 
@@ -83,13 +83,48 @@ li{
     text-align: center;
 }
 
-
+.login a{
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}
 /* fine login */
 
+/* jumbotron */
+.jumbotron{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+}
 
+.jumbotron-box{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px;
+    color: white;
+}
 
-/* fine header */
+h1{
+    font-size: 45px;
+}
 
+.jumbotron-btn a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 24px;
+}
+
+.jumbotron-btn .download{
+    color: black;
+    background-color: white;
+    
+}
+
+.jumbotron-btn .browser{
+    color: white;
+    background-color: #23272a;
+}
 
 
 
