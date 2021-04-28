@@ -2,7 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:Helvetica,sans-serif;
+    font-weight: 600;
 }
+
+/* commons */
+.btn{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: none;
+}
+/* fine commons */
 
 
 /* container */
@@ -18,31 +29,64 @@
 /* header */
 header{
     height: 60px;
+    background-color: #3161e0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header div, header nav{
+    line-height: 60px;
+}
+/* header */
+
+/* logo */
 .logo{
-    display: inline-block;
+    float: left;
     width: 20%;
     text-align: center;
 }
 
+#logo{
+    vertical-align: middle;
+}
+/* fine logo */
+
+/* nav */
 nav{
-    display: inline-block;
+    float: left;
     width: 60%;
     text-align: center;
 }
 
-.login{
-    display: inline-block;
-    width: 20%;
-    text-align: center;
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 li{
     display: inline-block;
     list-style: none;
-    text
+    margin: 0 14px;
 }
+/* fine nav */
+
+/* login */
+.login{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+/* fine login */
+
+
 
 /* fine header */
 
@@ -60,7 +104,7 @@ li{
 
 /* debug */
 
-.debug .container{
+/* .debug .container{
     background-color: lightcoral;
 }
 
@@ -73,7 +117,7 @@ li{
 }
 
 .debug .logo{
-    background-color: green;    
+    background-color: green;     */
 }
 
 .debug{
