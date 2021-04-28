@@ -107,6 +107,14 @@ li{
 
 h1{
     font-size: 45px;
+    margin-bottom: 45px;
+}
+
+.jumbotron-box p{
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding: 0 10%;
 }
 
 .jumbotron-btn a{
@@ -118,6 +126,7 @@ h1{
 .jumbotron-btn .download{
     color: black;
     background-color: white;
+    margin-right: 30px;
     
 }
 
